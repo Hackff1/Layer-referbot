@@ -14,7 +14,7 @@ def save_wallet_to_file(wallet_address):
         file.write(wallet_address + "\n")
 
 # Get referral code from user input
-referral_code = input("Owner of script is deeptv channel 😉 Enter your referral code: ").strip()
+referral_code = input("Owner of script is @foketcrypto channel 😉 Enter your referral code: ").strip()
 url = f"https://referral.layeredge.io/api/referral/register-wallet/{referral_code}"
 
 headers = {
